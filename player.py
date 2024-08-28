@@ -40,4 +40,4 @@ playB = tkinter.Button(player, width=7, height=1, font="Helvetica", text="Play",
 pauseB = tkinter.Button(player, width=7, height=1, font="Helvetica", text="Play", command=play, bg="red").grid(row=2, column=0)
 resumeB = tkinter.Button(player, width=7, height=1, font="Helvetica", text="Play", command=play, bg="blue").grid(row=2, column=0)
 
-player.mainloope
+player.mainloop
